@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="head-container">
+        <div class="header-container">
+          <img class="header-logo" src="/images/quiz.png" />
+          <p class="header-text">Quiz-Ky</p>
+          <div class="button-cla">
+            <button type="button" class="nextbtn">Let's Start Quiz-Ky</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="rules-container hide">
+        <div class="rule-boxcontainer">
+          <div class="rule-box">
+            <div class="rule-title">
+              <p>Instructions</p>
+            </div>
+            <div class="instructions">
+              <ul>
+                <li>
+                  There will be a Total of <b>10 Question</b> related to the
+                  <b>Option you Choose</b> Default choice is JavaScript.
+                </li>
+                <li>
+                  Your Total Points will be displayed at the end of the Quiz only.
+                </li>
+                <li>
+                  Once attempted question will not be available for a Reattempt.
+                </li>
+                <li>All the Questions will be having <b>Multiple Choice.</b></li>
+                <li><b>Points will not be deducted</b> for Wrong answer.</li>
+                <li>
+                  Once the page is refreshed all your
+                  <b>Progress will be lost.</b>
+                </li>
+                <li>There is <b>Time Limit </b>of 15 seconds so be quick.</li>
+                <li>
+                  <b>Un-Attempted Question</b> will be awarded <b>0 points.</b>
+                </li>
+                <li>
+                  Once you have selected the <b>Category</b> you can start the quiz by clicking the<b>
+                    Start Button.</b
+                  >
+                </li>
+              </ul>
+            </div>
+  
+            <div class="category">
+              <div class="category-title">Select your Category</div>
+              <div class="categories">
+                <button class="category-btn cbash" value="bash" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/console.png" alt="console"/><br>
+                    Bash
+                  </button>
+                  <button class="category-btn cdocker" value="docker" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/docker.png" alt="docker"/><br>
+                    Docker
+                  </button>
+                  <button class="category-btn chtml" value="html" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v2.png" alt="html-5--v2"/><br>
+                    HTML
+                  </button>
+                <button class="category-btn cjs" value="JavaScript" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/><br>
+                  JavaScript
+                </button>
+                <button class="category-btn ckubernetes" value="kubernetes" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/kubernetes.png" alt="kubernetes"/><br>
+                    Kubernetes
+                  </button>
+                <button class="category-btn claravel" value="Laravel" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/nolan/64/laravel.png" alt="laravel"/><br>
+                    Laravel
+                  </button>
+                <button class="category-btn clinux" value="Linux" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/linux--v1.png" alt="linux--v1"/><br>
+                  Linux
+                </button>
+                <button class="category-btn csql" value="sql" type="button">
+                    <img width="48" height="48" src="https://img.icons8.com/dusk/64/data-configuration.png" alt="data-configuration"/><br>
+                    SQL
+                  </button>
+                <button class="category-btn cwp" value="wp" type="button">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/wordpress.png" alt="wordpress"/><br>
+                    Wordpress
+                  </button>
+                <button class="category-btn cpython" value="python" type="button">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/><br>
+                    Python
+                  </button>
+              </div>
+            </div>
+  
+            <div class="start-btn">
+              <button type="button" class="startbtn">Start</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="questions-container hide"></div>
+  
+      <div class="points-container hide">
+        <div class="points-box">
+          <div class="logo"></div>
+          <div class="point-text"></div>
+          <p class="points-bottom">Refresh to Start Again</p>
+        </div>
+        </div>
+      </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
