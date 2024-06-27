@@ -29,7 +29,7 @@
     font-family: cursive;
     padding: 30px;
     border-radius: 30px;
-    width: 50vw;
+    min-width: 50vw;
   }
   .hide {
     transition: ease-out 20s;
@@ -129,6 +129,11 @@
     grid-template-columns: auto auto auto auto auto;
     justify-content: center;
     gap: 10px;
+  }
+  @media screen and (max-width:630px) {
+    .categories{
+      grid-template-columns: auto auto auto;
+    }
   }
   .category {
     display: flex;
