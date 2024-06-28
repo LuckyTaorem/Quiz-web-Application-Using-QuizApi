@@ -8,6 +8,43 @@ This web Application is created using QuizApi APIs to get data and display it to
 <li>There are total 10 question where each question is of 15 seconds.</li>
 <li>You will not be allow to go back to previous question and no deduction of points for wrong answer.</li>
 </ul>
+<ul>
+<li>**Event Handling and API Calls:**</li>
+  <ul>
+    <li>The code sets up event listeners for buttons (nextbtn and startbtn) to control the flow of the quiz application.</li>
+    <li>When the “Let’s Start Quiz-Ky” button (startbtn) is clicked, the hiderules function is triggered.</li>
+    <li>The hiderules function fetches quiz questions from an API based on the selected category (default is JavaScript) and displays them in the .questions-container.</li>
+  </ul>
+  
+<li>**Global Variables**:</li>
+  <ul>
+    <li>Several global variables (index, data, total, etc.) are used to manage the quiz state.</li>
+    <li>For example, index keeps track of the current question index, and total accumulates the user’s score.</li>
+  </ul>
+  
+<li>**Timer and Question Navigation**:</li>
+  <ul>
+    <li>The setTimer function sets an interval to update the timer display.</li>
+    <li>The nextquestion function handles moving to the next question, updating the timer, and displaying the result when all questions are answered.</li>
+  </ul>
+  
+<li>**Result Display**:</li>
+  <ul>
+    <li>Depending on the total score, different messages and images are displayed (e.g., sad face, thumbs up, party icon).</li>
+  </ul>
+  
+<li>**HTML Structure**:</li>
+  <ul>
+    <li>The HTML structure includes a navigation bar for the quiz category.</li>
+    <li>Dynamically generated question elements are added to the .questions-container.</li>
+  </ul>
+  
+<li>**API Call**:</li>
+<ul>
+    <li>The getdata function fetches quiz questions from the specified API URL using fetch and handles the response.</li>
+</ul>
+</ul>
+
 <h1>Output:</h1>
 <h2 align="center">Start Page</h2>
 
